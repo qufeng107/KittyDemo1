@@ -1,0 +1,76 @@
+{
+    "name": "ActionMap",
+    "maps": [
+        {
+            "name": "ActionMap",
+            "id": "b023a60a-7111-4db3-aedb-f24f6ef879ca",
+            "actions": [
+                {
+                    "name": "PositionPrimaryTouch",
+                    "type": "Value",
+                    "id": "7e0728ec-3068-444e-98cd-d9591ea7287a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PressPrimaryTouch",
+                    "type": "PassThrough",
+                    "id": "f98124de-d6e8-4a30-808a-dbcedf0da0c1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3aa33fdf-d015-4b9c-92df-2a94573d8c22",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PositionPrimaryTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0ea19bb8-a2fd-4f57-a16e-aa7ffd5f5d26",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PositionPrimaryTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "85279100-0277-4070-b324-f15e6e85ef8d",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PressPrimaryTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "561314cb-10f1-49b2-908b-4ade7a0fcceb",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PressPrimaryTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
