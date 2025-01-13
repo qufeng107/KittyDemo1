@@ -8,6 +8,9 @@
 [Mm]emoryCaptures/
 [Uu]ser[Ss]ettings/
 
+# Ignore Visual Scripting generated files
+Assets/Unity.VisualScripting.Generated/
+
 # Visual Studio相关
 .vscode/
 *.csproj
